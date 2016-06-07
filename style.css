@@ -1,4 +1,8 @@
-    .main_text_header h1 {
+     body {
+        overflow-y: scroll;
+        overflow-x: hidden;
+    }
+.main_text_header h1 {
         color: #4c67ad;
         font-weight: 800;
     }
