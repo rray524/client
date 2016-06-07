@@ -1,0 +1,371 @@
+    .main_text_header h1 {
+        color: #4c67ad;
+        font-weight: 800;
+    }
+    
+    .slicknav_menu {
+        display: none;
+    }
+    
+    .main_text_header h3 {
+        color: #4c67ad;
+        font-weight: 600;
+    }
+    
+    section.bg-image {
+        background-image: url("white.png");
+        background-size: 100% 100%;
+    }
+    
+    section#nav {
+        background-image: url("back.png");
+        background-size: 100% 100%;
+    }
+    
+    .logo_txt > h1 {
+        color: #08409c;
+        font-size: 57px;
+        font-weight: 800;
+    }
+    
+    .logo_txt h4 {
+        color: #376ab5;
+    }
+    
+    .logo_txt span {
+        color: #2b2e34;
+        font-size: 25px;
+        font-weight: 700;
+        padding-left: 9px;
+    }
+    
+    .gren {
+        color: #63c396 !important;
+        padding-left: 0 !important;
+    }
+    
+    sup {
+        color: #53c383;
+        font-size: 11px;
+    }
+    
+    ul#menu li {
+        display: inline;
+        position: relative;
+    }
+    
+    .grey {
+        color: #b3cbe8;
+        font-size: 25px;
+        font-weight: 600;
+    }
+    
+    .whit {
+        color: #ffffff;
+        font-size: 25px;
+        font-weight: 600;
+    }
+    
+    ul#menu li a {
+        padding: 6px;
+        text-decoration: none;
+    }
+    
+    .container.nav_area {
+        width: 1209px;
+    }
+    
+    .nav_area {
+        padding-left: 0;
+        padding-right: 0;
+    }
+    
+    li.right {}
+    
+    li.right::after {
+        background: rgba(0, 0, 0, 0) url("right.png") repeat scroll 0 0;
+        content: "";
+        height: 27px;
+        position: absolute;
+        right: -9px;
+        top: -9px;
+        width: 13px;
+    }
+    
+    .nav_menu {
+        margin-top: 120px;
+    }
+    
+    .logo_txt {
+        margin-top: 50px;
+        margin-bottom: 29px;
+    }
+    
+    ul#menu {
+        padding-left: 0;
+    }
+    
+    .footer {
+        background-image: url("footer.png");
+        background-size: 100% 100%;
+    }
+    
+    .pow {
+        color: #f0f5fa;
+        font-size: 22px;
+        margin: 34px 0 0 8px;
+    }
+    
+    #foot a {
+        color: #fff;
+        font-size: 21px;
+        font-weight: 800;
+        text-decoration: none;
+    }
+    
+    #foot2 a {
+        color: #fff;
+        font-size: 21px;
+        font-weight: 800;
+        text-decoration: none;
+    }
+    
+    #foot > li {
+        list-style: outside none none;
+    }
+    
+    #foot2 > li {
+        list-style: outside none none;
+    }
+    
+    .col-sm-6 > ul {
+        float: left;
+        position: relative;
+    }
+    
+    .col-sm-6 > ul#foot::after {
+        background-image: url("hr.png");
+        content: "";
+        height: 84px;
+        position: absolute;
+        right: -32px;
+        top: 6px;
+        width: 24px;
+    }
+    
+    .col-sm-6.post {
+        margin-bottom: 50px;
+        margin-top: 40px;
+    }
+    
+    #accordion > h3 {
+        color: #6f7175;
+        font-size: 25px;
+        font-weight: 600;
+        margin: 35px 0;
+        position: relative;
+    }
+    
+    #accordion span {
+        color: #6f7175;
+        font-size: 25px;
+        font-weight: 600;
+    }
+    
+    #accordion p {
+        color: #6f7175;
+        font-size: 19px;
+        font-weight: 400;
+    }
+    
+    .last {
+        padding-bottom: 350px;
+    }
+    
+    .main_text_header {
+        margin-top: 66px;
+    }
+    
+    .col-sm-12.padd {
+        padding: 0 100px;
+    }
+    
+    #accordion > h3::before {
+        background: rgba(0, 0, 0, 0) url("tir.png") repeat scroll 0 0;
+        content: "";
+        height: 20px;
+        left: -28px;
+        position: absolute;
+        top: 2px;
+        width: 23px;
+    }
+    
+    @media (min-width:992px) and (max-width: 1199px) {
+        .slicknav_menu {
+            display: none;
+        }
+        .col-sm-8 {
+            padding-left: 0;
+        }
+        ul#menu li a {
+            padding: 5px;
+        }
+        .grey {
+            font-size: 20px;
+        }
+        .whit {
+            font-size: 18px;
+        }
+        .last {
+            padding-bottom: 203px;
+        }
+        #foot2 a {
+            font-size: 19px;
+        }
+        #foot a {
+            font-size: 19px;
+        }
+        .col-sm-6 > ul#foot::after {
+            top: 2px;
+        }
+        li.right::after {
+            background: rgba(0, 0, 0, 0) url("right2.png") repeat scroll 0 0;
+            height: 16px;
+            right: -6px;
+            top: -1px;
+            width: 8px;
+        }
+    }
+    
+    @media (min-width:768px) and (max-width: 991px) {
+        .slicknav_menu {
+            display: none;
+        }
+        .logo_txt {
+            margin-bottom: 25px;
+            margin-top: 28px;
+        }
+        .logo_txt > h1 {
+            font-size: 53px;
+        }
+        .grey {
+            font-size: 16px;
+        }
+        .whit {
+            font-size: 16px;
+        }
+        ul#menu li a {
+            padding: 2px;
+        }
+        li.right::after {
+            background: rgba(0, 0, 0, 0) url("right2.png") repeat scroll 0 0;
+            height: 16px;
+            right: -6px;
+            top: -1px;
+            width: 8px;
+        }
+        .nav_area {
+            padding-right: 205px;
+        }
+        .logo_txt h4 {
+            font-size: 16px;
+        }
+        .logo_txt span {
+            font-size: 20px;
+        }
+        .nav_menu {
+            margin-top: 97px;
+        }
+        .main_text_header h1 {
+            font-size: 28px;
+        }
+        .main_text_header h3 {
+            font-size: 20px;
+        }
+        #accordion > h3 {
+            font-size: 21px;
+            margin: 26px 0;
+        }
+        #accordion span {
+            font-size: 20px;
+        }
+        #accordion p {
+            font-size: 16px;
+        }
+        .last {
+            padding-bottom: 123px;
+        }
+        .col-sm-12.padd {
+            padding: 0 73px;
+        }
+        #foot a {
+            font-size: 13px;
+        }
+        #foot2 a {
+            font-size: 13px;
+        }
+        .col-sm-6.post {
+            margin-bottom: 31px;
+            margin-top: 37px;
+        }
+        .col-sm-6 > ul#foot::after {
+            top: -13px;
+        }
+    }
+    
+    @media (min-width:320px) and (max-width: 767px) {
+        .slicknav_menu {
+            display: block;
+        }
+        .nav_menu {
+            display: none;
+        }
+        .col-sm-12.padd {
+            padding: 0 14px;
+        }
+        .main_text_header {
+            margin-top: 41px;
+        }
+        .main_text_header h1 {
+            font-size: 15px;
+        }
+        .main_text_header h3 {
+            font-size: 14px;
+        }
+        #accordion > h3 {
+            font-size: 15px;
+            margin: 13px 0;
+        }
+        #accordion span {
+            font-size: 15px;
+        }
+        #accordion p {
+            font-size: 13px;
+        }
+        #accordion img {
+            width: 22%;
+        }
+        .last {
+            padding-bottom: 1px;
+        }
+        .pow {
+            font-size: 18px;
+            margin: 19px 0 0 6px;
+        }
+        .col-sm-6 > img {
+            width: 53%;
+        }
+        #foot a {
+            font-size: 11px;
+        }
+        #foot2 a {
+            color: #fff;
+            font-size: 11px;
+        }
+        .col-sm-6 > ul#foot::after {
+            display: none
+        }
+        #accordion > h3::before {
+            display: none;
+        }
+    }
