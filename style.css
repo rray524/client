@@ -372,4 +372,8 @@
         #accordion > h3::before {
             display: none;
         }
+section.bg-image {
+  background-image: none;
+ 
+}
     }
