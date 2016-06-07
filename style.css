@@ -376,4 +376,10 @@ section.bg-image {
   background-image: none;
  
 }
+.col-sm-6 > ul {
+ 
+  padding-left: 0;
+  padding-right: 46px;
+
+}
     }
